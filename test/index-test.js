@@ -13,8 +13,8 @@ function logShout(string) {
 }
 
 function logShout(string) {
-  var strings = string.toLowerCase();
-  console.log(strings);
+  var lower = string.toLowerCase();
+  console.log(lower);
 
 }
 
