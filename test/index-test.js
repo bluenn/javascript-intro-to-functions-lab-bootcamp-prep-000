@@ -12,6 +12,12 @@ function logShout(string) {
   
 }
 
+function logShout(string) {
+  var strings = string.toLowerCase();
+  console.log(strings);
+  
+}
+
 
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
