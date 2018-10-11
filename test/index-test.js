@@ -12,7 +12,7 @@ function logShout(string) {
 
 }
 
-function logShout(string) {
+function logWhisper(string) {
   var lower = string.toLowerCase();
   console.log(lower);
 
